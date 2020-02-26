@@ -34,7 +34,7 @@ target 'desafioB2w' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
 
   target 'desafioB2wTests' do
     inherit! :search_paths

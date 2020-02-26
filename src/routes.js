@@ -4,6 +4,7 @@ import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import Home from './pages/Home';
 import Planets from './pages/Planets';
+import Erro from './pages/Erro';
 
 const AppNavigator = createStackNavigator({
 
@@ -14,9 +15,16 @@ const AppNavigator = createStackNavigator({
     },
   },
   Planets:{
-    screen: Planets, navigationOptions: {
+    screen: Planets, 
+    navigationOptions: {
       header: null,
     }, 
+  },
+  Erro:{
+    screen: Erro, 
+    navigationOptions: {
+      header: null,
+    },
   },  
 },
 );

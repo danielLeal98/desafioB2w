@@ -30,7 +30,7 @@ export const ViewButton = styled.View`
     position: absolute
     bottom:0;
     align-items: center;   
-    height: 20%; 
+    height: auto; 
 `;
 export const CardMain = styled.View`
     margin: auto 15px auto 12px;

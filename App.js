@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Text, View, StatusBar } from 'react-native'
-import Routes from './src/routes'
-
+import Routes from './src/routes';
+import SplashScreen from 'react-native-splash-screen';
 
 export default class App extends Component {
     render() {      

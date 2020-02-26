@@ -5,7 +5,7 @@ export const Container = styled.View`
 	flex: 1;
 	justify-content: center;
 	align-items: center;
-     resizeMode: cover;
+    resizeMode: cover;
 `;
 export const ImageBackground = styled.ImageBackground`
     flex: 1;
@@ -17,9 +17,9 @@ export const ViewImage = styled.View`
 	align-items: center;   
 `;
 export const ImageLogo = styled.Image`
-    width: 52%;
+    width: 51%;
     height: 30%;
-    marginTop:80px;
+    marginTop:70px;
 `;
 export const Botao = styled.TouchableOpacity`
     background-color: black;
